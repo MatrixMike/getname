@@ -1,0 +1,78 @@
+# All times in this file are in UTC (GMT), not your local timezone.   This is
+# not a bug, so please don't ask about it.   There is no portable way to
+# store leases in the local timezone, so please don't request this as a
+# feature.   If this is inconvenient or confusing to you, we sincerely
+# apologize.   Seriously, though - don't ask.
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-V3.0rc7
+
+lease 192.168.10.147 {
+  starts 6 2001/07/21 04:57:57;
+  ends 6 2001/07/21 04:59:57;
+  tstp 6 2001/07/21 04:59:57;
+  binding state free;
+  hardware ethernet 00:50:73:21:cb:f4;
+}
+lease 192.168.10.149 {
+  starts 4 2001/07/26 07:24:36;
+  ends 4 2001/07/26 09:24:36;
+  tstp 4 2001/07/26 09:24:36;
+  binding state free;
+  hardware ethernet 00:e0:29:0f:44:5f;
+  uid "\001\000\340)\017D_";
+}
+lease 192.168.10.146 {
+  starts 4 2001/07/26 09:28:38;
+  ends 4 2001/07/26 11:28:38;
+  tstp 4 2001/07/26 11:28:38;
+  binding state free;
+  hardware ethernet 00:e0:29:0f:44:5f;
+  client-hostname "toy1.fast.com";
+}
+lease 192.168.10.150 {
+  starts 4 2001/07/26 10:49:32;
+  ends 4 2001/07/26 12:49:32;
+  tstp 4 2001/07/26 12:49:32;
+  binding state free;
+  hardware ethernet 00:30:c1:57:f5:a8;
+  client-hostname "UNKNOWN_28";
+}
+lease 192.168.10.145 {
+  starts 4 2001/07/26 23:01:47;
+  ends 4 2001/07/26 23:03:47;
+  tstp 4 2001/07/26 23:03:47;
+  binding state free;
+  hardware ethernet 00:e0:29:0f:44:5f;
+}
+lease 192.168.10.144 {
+  starts 4 2001/07/26 23:01:49;
+  ends 4 2001/07/26 23:04:53;
+  tstp 4 2001/07/26 23:04:53;
+  binding state free;
+  hardware ethernet 00:e0:29:0f:44:5f;
+  client-hostname "toy1.fast.com";
+}
+lease 192.168.10.143 {
+  starts 4 2001/07/26 23:07:47;
+  ends 4 2001/07/26 23:09:47;
+  tstp 4 2001/07/26 23:09:47;
+  binding state free;
+  hardware ethernet 00:e0:29:0f:44:5f;
+}
+lease 192.168.10.142 {
+  starts 4 2001/07/26 23:07:49;
+  ends 4 2001/07/26 23:22:43;
+  tstp 4 2001/07/26 23:22:43;
+  binding state free;
+  hardware ethernet 00:e0:29:0f:44:5f;
+  client-hostname "toy1.fast.com";
+}
+lease 192.168.10.148 {
+  starts 1 2001/07/30 10:29:12;
+  ends 1 2001/07/30 12:29:12;
+  binding state active;
+  next binding state free;
+  hardware ethernet 00:60:08:09:82:1f;
+  uid "\001\000`\010\011\202\037";
+  client-hostname "framefas-sing1";
+}
