@@ -28,6 +28,7 @@ int main(int argc, char *argv[])
     names = hostinfo -> h_aliases;
     while(*names) {
         printf(" %s", *names);
+        printf(" A another one ");
         names++;
     }
     printf("\n");
@@ -38,6 +39,7 @@ int main(int argc, char *argv[])
     addrs = hostinfo -> h_addr_list;
     while(*addrs) {
         printf(" %s", inet_ntoa(*(struct in_addr *)*addrs));
+        printf(" B another one ");
         addrs++;
     }
     printf("\n");
