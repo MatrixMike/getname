@@ -5,6 +5,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 //  11.04.2019 15:21:38
+//  22.07.2019 11:27:23
+// investigate host         hostid       hostname     hostnamectl
 
 int main(int argc, char *argv[])
 {
@@ -14,6 +16,7 @@ int main(int argc, char *argv[])
         char myname[256];
         gethostname(myname, 255);
         host = myname;
+        printf("point 1: %s %s \n",myname, host);
     }
     else
         host = argv[1];
